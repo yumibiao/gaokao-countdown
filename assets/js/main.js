@@ -37,11 +37,11 @@
 					// Images (in the format of 'url': 'alignment').
 						images: {
 							'images/points_lines.jpg': 'center',
-							'images/bg02.jpg': 'center'
+							'images/500403977.jpg': 'center'
 						},
 
 					// Delay.
-						delay: 3000000
+						delay: 30000000
 
 				};
 
@@ -80,7 +80,7 @@
 				window.setInterval(function() {
 
 					lastPos = pos;
-					pos++;
+					//pos++;
 
 					// Wrap to beginning if necessary.
 						if (pos >= $bgs.length)
